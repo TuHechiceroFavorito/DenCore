@@ -1,5 +1,5 @@
 # DENCORE - Basic CPU
-I made this simple 8-bit CPU for fun, and to learn a bit better how CPUs work. I do have some prior knowledge of the basics of computation, but I have never built or studyied the full architecture of a CPU. I did all these from first principles and trial and error. The design is not perfect, but the main goal of the project, which was greatly accomplished
+I made this simple 8-bit CPU for fun, and to learn a bit better how CPUs work. I do have some prior knowledge of the basics of computation, but I have never built or studied the full architecture of a CPU. I did all these from first principles and trial and error. The design is not perfect, but the main goal of the project was learning, which was greatly accomplished
 
 ## Architecture
 The diagrams of the design can be found under the folder Documentation.
