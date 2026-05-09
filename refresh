@@ -1,0 +1,8 @@
+echo "Compiling..."
+#iverilog -o sim.vvp ALU_tb.v
+iverilog -o sim.vvp CPUtop_tb.v
+echo "Simulating..."
+echo "---------------------------------------"
+vvp sim.vvp
+echo "---------------------------------------"
+echo "Simulation completed"

@@ -1,0 +1,4 @@
+#iverilog -o sim.vvp ALU_tb.v
+iverilog -o sim.vvp CPUtop_tb.v
+vvp sim.vvp
+gtkwave dump.vcd
