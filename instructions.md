@@ -36,7 +36,7 @@ NOT - 10011  - 0x13   -   Bit wise NOT
 ADD - 10100  - 0x14   -   Addition
 SUB - 10101  - 0x15   -   Subtraction
 MULT- 10110  - 0x16   -   Multiplication
-DIV - 10111  - 0x17   -   Division
+DIV - 10111  - 0x17   -   Division          - NOT IMPLEMENTED
 SR  - 11000  - 0x18   -   Shift right
 SL  - 11001  - 0x19   -   Shift left
 EQ  - 11010  - 0x1A   -   Equal
@@ -58,26 +58,6 @@ B   - 0x1
 r0  - 0x2
 r1  - 0x3
 C   - Outside of ALU, in CU
-
-
-
-// Update this section
-# Example
-DAT 0x5     - 1 0000101         // Store 5 in C
-LI A        - 0 0000 000        // Move C to A
-ADD A       - 0 1000 000        // Save A + B in A
-SUB B       - 0 1001 001        // Save A - B in B
-OR A        - 0 1011 000        // Save A|B in A
-DAT 0x3A    - 1 0111010         // Save 0x3A in C
-LB A        - 0 0011 000        // Load in A contents of memory address stored in C (0x3A)
-DAT 0x1F    - 1 0011111         // Load 0x1F in C
-SB B        - 0 0100 001        // Store B in memory address stored in C (0x1F)
-SI A        - 0 0001 000        // Move A to C
-SW          - 0 0011 000        // Swap A and B
-DAT 0x50    - 1 101000          // Store 0x50 in C
-J           - 0 1111 000        // Jump to memory address in C
-SI A        - 0 0001 000        // Move C to A
-LI r1       - 0 0000 011        // Move r1 to C
 
 
 # Memory mapping
